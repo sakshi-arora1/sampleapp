@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/sampleapp" mode="merge"/>
+    <filter root="/content/sampleapp" mode="merge"/>
+    <filter root="/content/dam/sampleapp" mode="merge">
+        <exclude pattern="/content/dam/sampleapp(/.*)?"/>
+        <include pattern="/content/dam/sampleapp/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/sampleapp/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/sampleapp" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/sampleapp" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/sampleapp" mode="merge"/>
+    <filter root="/content/dam/sampleapp/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/sampleapp/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/sampleapp/wknd_logo.png" mode="merge"/>
+    <filter root="/content/dam/sampleapp/af_model_sample.json" mode="merge"/>
+</workspaceFilter>
